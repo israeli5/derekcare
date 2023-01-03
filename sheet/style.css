@@ -1,0 +1,285 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: san-serif;
+}
+body{
+    width: 100vw;
+    background-attachment: fixed;
+    background-image: url('background.jpg');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.main{
+    width: 29em;
+    height: 28.5em;
+    background: rgba(255, 255, 255, .7);
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, .3);
+    position: relative;
+    margin-top: 50px;
+}
+.container{
+    width: 100vw;
+    height: 120px;
+    background: rgba(0, 0, 0, .7);
+    margin-top: 30px;
+    text-align: center;
+}
+.content{
+    text-align: center;
+    padding: 0 8px;
+    margin-top: 15px;
+    text-transform: capitalize;
+  
+}
+span{
+    color: green;
+    text-transform: capitalize;
+    font-size: 1.2em;
+}
+.melt{
+    font-family: 'Roboto Slab', serif;
+    color:rgb(122, 39, 39);
+}
+.strive{
+    margin-top: 18px;
+    font-style: italic;
+    font-size: 2em;
+    color: green;
+ 
+}
+.kick{
+    margin-top: 15px;
+    font-style: italic;
+    color: blue;
+    line-height: 1.5em;
+}
+.and{
+    font-family: 'Arsenal', sans-serif;
+}
+.see{
+    margin-top: 5px;
+    color:black;
+    font-family: 'Acme', sans-serif;
+    font-size: 1.6em;
+}
+button{
+  
+    padding: 8px;
+    background: yellow;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+button a{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: black;
+    font-family: 'Acme', sans-serif;
+    font-style: italic;
+    font-weight: bolder;
+
+}
+button:hover{
+    background: red;
+    transition: .5s ease-out;
+    color: blue;
+}
+
+
+.context{
+    display: inline-flex;
+    margin: 3px;
+    margin-top: 10px;
+    text-decoration: none;
+   
+}
+.policy{
+    border-left: 2px solid white;
+    padding: 0 6px;
+    color: white;
+   text-decoration: none;
+   text-transform: capitalize;
+}
+.terms{
+    border-left: 2px solid white;
+    border-right:2px solid white;
+    padding: 0 6px;
+    color: white;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+.earn{
+    border-right: 2px solid white;;
+    padding: 0 6px;
+    color: white;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+.website{
+    color: white;
+    text-decoration: none;
+    text-transform: capitalize;
+    margin-left: 5px;
+}
+h4{
+    color: white;
+    margin-top: 3px;
+}
+.social{
+    display: inline-flex;
+    margin-top: 10px;
+    font-size: 27px;
+   letter-spacing: 25px;
+}
+.social:hover{
+    color: black;
+    transition: .5s ease-out;
+}
+.fa-facebook{
+    color: blue;
+}
+.fa-facebook:hover{
+    color: black;
+    transition: .5s ease-out;
+}
+.fa-instagram{
+    color: rgba(233, 8, 8, 0.795);
+}
+.fa-instagram:hover{
+    color: black;
+    transition: .5s ease-out;
+}
+.fa-twitter{
+    color:  #00acee;
+}
+.fa-twitter:hover{
+    color: black;
+    transition: .5s ease-out;
+}
+.fa-envelope{
+    color: rgb(54, 54, 56);
+}
+.fa-envelope:hover{
+    color: black;
+    transition: .5s ease-out;
+}
+.book{
+    color: white;
+    line-height: 1.3em;
+}
+
+@media screen and  (min-width:1280px) {
+    .main{
+        width: 29em;
+        height: 29em;
+        margin-top: 3em;
+    } 
+    button{
+        margin-top: 5px;
+    } 
+    .container{
+        width: 100vw;
+        height: auto;
+     }
+}
+@media screen and  (min-width:1000px) {
+    .main{
+        width: 29em;
+        height: 29em;
+        margin-top: 3em;
+    } 
+    button{
+        margin-top: 5px;
+    } 
+    .container{
+        width: 100vw;
+        height: auto;
+     }
+}
+@media screen and (max-width:992px) {
+    .main{
+        width: 29em;
+        height: 29em;
+        margin-top: 3em;
+    } 
+    button{
+        margin-top: 5px;
+    } 
+    .container{
+        width: 100vw;
+        height: auto;
+     }
+}
+@media screen and (max-width:768px) {
+    .main{
+        width: 29em;
+        height:29em;
+        margin-top: 3em;
+    } 
+    button{
+        margin-top: 5px;
+    } 
+    .container{
+        width: 100vw;
+        height: auto;
+     }
+}
+@media screen  and (max-width:576px) {
+    .main{
+        width: 21em;
+        height: 21.5em;
+        margin:1.2em;
+        margin-top: 3em;
+    }
+    .content{
+        text-align: center;
+        padding: 0 8px;
+        margin-top: 1em;
+       font-size: .7em;
+    }
+    button{
+        margin-top: 3px;
+        font-size: .8em;
+    }
+    .container{
+        width: 100vw;
+        height: auto;
+     }
+     .context{
+        font-size: .9em;
+     }
+     h4{
+        font-size: .8em;
+        line-height: 1.7em;
+      
+     }
+}
+
+@media screen and (min-width:320px) and (max-width:412px) {
+    .main{
+        width: 21em;
+        height: 21.5em;
+       
+    }  
+    .container{
+        width: 100vw;
+        height: auto;
+     }
+}
+@media screen and (max-width:320px) {
+    .main{
+        width: 18em;
+        height: 21.5em;
+       
+    }  
+    .container{
+        width: 100vw;
+        height: auto;
+     }
+}
+
